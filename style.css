@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 header{
     text-align: center;
     /* background-image: url("./img/image.png"); */
@@ -14,4 +17,23 @@ header img {
 }
 .kelvin{
     color: azure;
+}
+main{
+    background-color: gray;
+    /* margin: 0; */
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    gap: 15px;
+    padding: 30px;
+    margin-top: 250px;
+
+}
+.one ,.two{
+    background-color: azure;
+    padding: 20px 10px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 5px;
+
 }
