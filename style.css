@@ -1,10 +1,12 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 header{
     text-align: center;
     /* background-image: url("./img/image.png"); */
-    padding: 70px;
+    /* padding: 70px; */
+    box-sizing: border-box;
     
 }
 header img {
@@ -15,8 +17,24 @@ header img {
     left: 0;
     z-index: -1;
 }
+header div p{
+    padding: 10px;
+}
 .kelvin{
     color: azure;
+    margin-top: 200px;
+    
+}
+header div button{
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+header div button:hover{
+ background-color: #333;
+ color: rgb(241, 241, 243);
 }
 main{
     background-color: #ddd;
@@ -26,7 +44,7 @@ main{
     justify-content: center;
     gap: 15px;
     padding: 30px;
-    margin-top: 250px;
+    margin-top: 190px;
 
 }
 .one ,.two{
