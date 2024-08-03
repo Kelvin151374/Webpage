@@ -19,7 +19,7 @@ header img {
     color: azure;
 }
 main{
-    background-color: gray;
+    background-color: #ddd;
     /* margin: 0; */
     display: flex;
     /* text-align: center; */
@@ -35,5 +35,12 @@ main{
     text-align: center;
     line-height: 45px;
     border-radius: 5px;
+
+}
+footer{
+    text-align: center;
+    background-color: #333;
+    color: aliceblue;
+    padding: 15px;
 
 }
